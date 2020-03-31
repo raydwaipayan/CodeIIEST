@@ -1,18 +1,16 @@
 <template>
   <div>
-    <Hero />
+    <h1>Welcome!</h1>
+    <NLink to="/about">
+      About Page
+    </NLink>
   </div>
 </template>
 
 <script>
-import Hero from '~/components/Landing/Hero.vue'
-
 export default {
-  components: {
-    Hero
+  head: {
+    title: 'Home page'
   }
 }
 </script>
-
-<style>
-</style>
