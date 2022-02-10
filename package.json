@@ -29,7 +29,7 @@
     "vuexfire": "^3.2.2"
   },
   "devDependencies": {
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "nodemon": "^1.18.9",
     "push-dir": "^0.4.1",
     "sass-loader": "^8.0.2",
